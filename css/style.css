@@ -393,7 +393,7 @@ section.feature-product {
 
 section.form-area {
   width: 90%;
-  padding: 0 2rem;
+  padding: 0 1rem;
   justify-content: center;
 }
 
@@ -411,6 +411,12 @@ section.image-holder {
   width: 100%;
   height: auto;
 
+
+}
+
+section.intro {
+  width: 100%;
+  text-align: left;
 
 }
 
@@ -439,6 +445,12 @@ section.storm {
   width: 100%;
   padding: 0 0;
   text-align: left;
+
+}
+
+section.summary {
+  width 100%;
+  padding: 0 0;
 
 }
 
@@ -486,9 +498,9 @@ p {
   line-height: 1.5;
 }
 
-.slogan {
-  font-size: 1.5rem;
-  padding: 1rem 3rem;
+p.slogan {
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
 
 }
 
@@ -757,6 +769,13 @@ a:active {
     text-align: left;
   }
 
+  section.feature-callout {
+    float: left;
+    padding: 5rem 0;
+    text-align: left;
+    }
+
+
   section.form-area {
     width: 100%;
     padding: 0 5rem;
@@ -848,7 +867,7 @@ a:active {
 
 /** desktop**/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
 
   .section-button {
 
@@ -861,16 +880,6 @@ a:active {
   }
 
 
-  p.caption {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight:  100;
-    font-size: 1.5rem;
-    line-height: 1;
-    text-align: center;
-  }
-
-
   .case-image {
     height: auto;
     text-align: center;
@@ -879,7 +888,7 @@ a:active {
   }
 
   .container {
-    width: 90%;
+    width: 80%;
     margin-left: 0 auto;
     padding: 3rem 4rem;
 
@@ -913,7 +922,7 @@ a:active {
   }
 
   .header-main {
-    padding: 5rem 10rem;
+    padding: 5rem 5rem;
     width: 100%;
   }
 
@@ -996,15 +1005,24 @@ a:active {
 
   }
 
+  p.caption {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight:  100;
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center;
+  }
 
 
-p.slogan {
+  p.slogan {
+    width:100%;
     font-size: 2.5rem;
-    padding: 2rem 10rem;
+
 
   }
 
-h2.process-title {
+  h2.process-title {
     color: white;
     font-size: 2.2rem;
 
@@ -1014,6 +1032,7 @@ h2.process-title {
     width: 90%;
     height: auto;
     margin: 0rem 1rem;
+    padding: 1rem 1rem;
 
   }
 
@@ -1075,8 +1094,9 @@ section.competition-copy {
 section.feature-product {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: minmax(300px, 1fr) 400px;
+  grid-template-columns: minmax(300px, 1fr) 300px;
   text-align: left;
+  margin-bottom: 3rem;
   }
 
 
@@ -1085,8 +1105,9 @@ section.feature-product {
 
 section.feature-callout {
   float: left;
-  padding: 10rem 2rem;
+  padding-top: 5rem;
   text-align: left;
+  justify-content: middle;
   }
 
 section.form-area {
@@ -1127,8 +1148,6 @@ section.summary {
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr) );
   text-align: center;
-
-
 
 }
 
