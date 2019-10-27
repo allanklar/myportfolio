@@ -431,6 +431,14 @@ section.intro {
 
 }
 
+section.preference {
+  background-color: #b9c9d1;
+  height: 400px;
+  width: 100%;
+  padding: 0 10rem;
+}
+
+
 
 section.screens {
   width: 100%;
@@ -466,6 +474,7 @@ section.summary {
 }
 
 .storm-pic {
+  width: 100%;
   margin: 2rem 0;
 
 }
@@ -625,16 +634,20 @@ a:active {
   .column-left {
     font-size: 1.8rem;
     line-height: 1.2;
-    padding-left: 4rem;
+    padding: 0 4rem;
 
   }
 
   .column-right {
     font-size: 1.8rem;
     line-height: 1.2;
-    padding-left: 4rem;
+    padding: 0 4rem;
+    margin-bottom: 3rem;
 
   }
+
+
+
   .container {
     width: 95%;
 
@@ -904,15 +917,32 @@ a:active {
   .container {
     width: 80%;
     margin-left: 0 auto;
-    padding: 3rem 4rem;
+    padding: 3rem 0rem;
 
   }
 
 
   .container-about {
-    width: 60%;
+    width: 50%;
 
   }
+
+  .column-left {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    padding: 0 4rem;
+
+  }
+
+  .column-right {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    padding: 0 4rem;
+    margin-bottom: 3rem;
+
+  }
+
+
 
   .feature-image {
     height: auto;
@@ -1055,6 +1085,14 @@ a:active {
 
   }
 
+  .responsive-user {
+    width: 75%;
+    height: auto;
+    margin: 0rem 1rem;
+    padding: 5rem 1rem;
+
+  }
+
   .responsive-logo {
     width: 80%;
     align-self: center;
@@ -1090,6 +1128,14 @@ section.branding {
   grid-template-columns: repeat(auto-fill, minmax(650px, 1fr) );
 }
 
+
+section.box {
+  font-size: 2rem;
+
+
+
+
+}
 
 section.case-right {
   padding-bottom: 15rem;
@@ -1144,8 +1190,8 @@ section.form-area {
 
 
 section.hello {
-  column-count: 2;
-  column-gap: 60px;
+  /**column-count: 2;
+  column-gap: 60px;**/
   margin: 0 0 3rem 0;;
 }
 
@@ -1205,6 +1251,14 @@ section.screens {
 
   }
 
+
+section.userflows {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr) ) ;
+}
+
+
   section.user-research {
     display: grid;
       grid-gap: 20px;
@@ -1219,7 +1273,7 @@ section.screens {
   }
 
   .storm-pic {
-    max-width: 500px;
+    height: auto;
     justify-content: center;
 
   }
