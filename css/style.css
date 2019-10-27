@@ -7,6 +7,10 @@
 
 body {
   background-color: white;
+  -webkit-transition:font-size .5s ease-in-out;
+  -moz-transition:font-size .5s ease-in-out;
+  -o-transition:font-size .5s ease-in-out;
+  transition:font-size .5s ease-in-out;
 }
 
 
@@ -75,6 +79,13 @@ button:hover {
 }
 
 .container {
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  padding: 1rem 1rem;
+}
+
+.container-about {
   margin: 0 auto;
   width: 100%;
   justify-content: center;
@@ -501,6 +512,8 @@ p {
 p.slogan {
   font-size: 1.4rem;
   padding: 1rem 2rem;
+  text-align: center;
+  float: inherit;
 
 }
 
@@ -624,6 +637,11 @@ a:active {
   }
   .container {
     width: 95%;
+
+  }
+
+  .container-about {
+    width: 75%;
 
   }
 
@@ -869,11 +887,7 @@ a:active {
 
 @media screen and (min-width: 1024px) {
 
-  .section-button {
 
-    font-size: 2rem;
-
-  }
 
   .button {
     width: 450px;
@@ -894,6 +908,11 @@ a:active {
 
   }
 
+
+  .container-about {
+    width: 60%;
+
+  }
 
   .feature-image {
     height: auto;
@@ -923,7 +942,7 @@ a:active {
 
   .header-main {
     padding: 5rem 5rem;
-    width: 100%;
+
   }
 
 
@@ -1016,8 +1035,8 @@ a:active {
 
 
   p.slogan {
-    width:100%;
     font-size: 2.5rem;
+    padding: 0 6rem;
 
 
   }
@@ -1041,6 +1060,12 @@ a:active {
     align-self: center;
     margin: 1rem 1rem;
 
+
+  }
+
+  .section-button {
+
+    font-size: 2rem;
 
   }
 
@@ -1121,6 +1146,7 @@ section.form-area {
 section.hello {
   column-count: 2;
   column-gap: 60px;
+  margin: 0 0 3rem 0;;
 }
 
 section.image-holder {
@@ -1193,8 +1219,8 @@ section.screens {
   }
 
   .storm-pic {
-    width: 100%;
-    height: auto;
-    text-align: left;
+    max-width: 500px;
+    justify-content: center;
+
   }
 }
