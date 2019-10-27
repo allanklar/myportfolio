@@ -1,0 +1,1181 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  background-color: white;
+}
+
+
+.button {
+  background-color: #0F58FC;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 200px;
+  margin: 2rem 0;
+
+}
+
+.button:hover {
+  background-color: #0d4bd6;
+
+}
+
+
+button {
+  background-color: #0F58FC;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 200px;
+  margin: 2rem 0;
+}
+
+button:hover {
+  background-color: #0d4bd6;
+
+}
+
+
+.column-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.column-right {
+  width: 50%;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  padding: 1rem 1rem;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+
+.feature-image {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  margin-top: 2rem;
+  padding: 2rem;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+form {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  margin: auto;
+  padding-top: 0rem;
+  width: 100%;
+}
+
+.hamburger {
+  width: 3rem;
+  height: auto;
+  padding-top: 10px;
+  margin: 0 .5rem;
+}
+
+html {
+  font-size: 10px;
+}
+
+.header-about {
+  background: url(/images/golfing.jpg) center / cover;
+  height: 40vh;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.header-image {
+  width: 70%;
+
+}
+
+.header-main {
+  background: url(/images/header.jpg) center / cover;
+  height: 60vh;
+  text-align: center;
+  color: #ffffff;
+  padding: 5rem 1rem;
+  width: 100%;
+}
+
+.header-project {
+  background: url(/images/bonfire_header.jpg) center / cover;
+  height: 40vh;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.header-thanks {
+  background: url(/images/header.jpg) center / cover;
+  height: 78vh;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.highlight {
+  background-color: #417BFD;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  margin: auto;
+}
+
+
+
+
+.icon {
+  width: 70%;
+  height: 70%;
+  object-fit: scale-down;
+
+
+}
+
+
+
+input[type=button] {
+  background:none;
+  border:none;
+  color:#FFF;
+  cursor:pointer;
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  height: 4rem;
+  font-size: 1.8rem;
+
+}
+
+textarea {
+  font-size: 1.8rem;
+}
+
+
+
+
+/***navigation***/
+
+
+
+
+
+.navbar {
+  font-size: 18px;
+  background-color: black;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  font-size: .7em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: regular;
+  list-style-type: none;
+  display: none;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.logo-nav {
+  width: 200px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+
+
+
+/*** end navigation***/
+
+.process-header {
+  background: url(/images/bonfire_camping.jpg) no-repeat  fixed;
+  padding: 10rem 15px;
+  justify-content: bottom;
+  text-align: left;
+  width: 100%;
+  height: 150px;
+  }
+
+.process-title {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+
+.responsive {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  margin: 1rem 1rem;
+
+}
+
+.responsive-logo {
+  width: 80%;
+  align-self: center;
+  margin: 1rem 1rem;
+
+}
+
+
+section {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0 1rem;
+
+}
+
+
+section.box {
+  background-color: #dedddd;
+  width: 100%;
+  height: 200px;
+  font-size: 1rem;
+
+}
+
+
+
+
+.section-button {
+  background-color: #0F58FC;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 2rem 0;
+
+}
+
+
+
+section.case-holder {
+  width: 100%;
+  padding: inherit;
+  margin: auto;
+
+
+}
+
+section.case-right {
+  width: 100%;
+
+
+}
+
+section.case-left {
+  width: 100%;
+  text-align: center;
+
+
+}
+
+section.case-study {
+  width: 100%;
+  text-align: left;
+  padding: 0 0;
+
+
+}
+
+section.competition {
+  text-align: center;
+}
+
+
+section.connect {
+  background-color:#F0F0F0;
+  width: 100%;
+  padding: 1rem 0;
+
+
+
+}
+
+
+section.feature-callout {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+section.feature-product {
+  width: 100%;
+  text-align: center;
+
+}
+
+section.form-area {
+  width: 90%;
+  padding: 0 2rem;
+  justify-content: center;
+}
+
+section.header {
+  width: 100%;
+  padding: 2rem 3rem;
+
+}
+
+section.hello {
+  padding: 0 0;
+}
+
+section.image-holder {
+  width: 100%;
+  height: auto;
+
+
+}
+
+
+section.screens {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+
+}
+
+
+section.social {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-template-rows: repeat(1, 50px);
+ margin-bottom: 2rem;
+ text-align: center;
+
+}
+
+section.storm {
+  width: 100%;
+  padding: 0 0;
+  text-align: left;
+
+}
+
+.storm-pic {
+  margin: 2rem 0;
+
+}
+
+section.wireframes {
+  background-color: #e5e5e5;
+  width: 100%;
+  text-align: center;
+}
+
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+
+
+/** Typography **/
+
+.caption {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight:  100;
+  font-size: 1.2rem;
+  line-height: 1;
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight:  100;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+
+}
+
+.introduction {
+  font-size: 4rem;
+  padding: 2rem 4rem;
+
+}
+
+
+
+h1 {
+  font-size: 4em;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: bold;
+
+
+}
+
+h1.about {
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: bold;
+  padding: 1rem 0;
+
+
+
+}
+
+
+h2 {
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: 600;
+  padding: 1rem 0;
+
+
+
+}
+h3 {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: 400;
+  padding: 1rem 0;
+  line-height: 1.3;
+
+
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: regular;
+  line-height: 2;
+  padding: 1rem 0;
+  font-style: italic;
+
+
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: gray;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+
+
+
+/** Ipad**/
+
+@media screen and (min-width: 768px) {
+
+  .button {
+    font-size: 1.8rem;
+    width: 70%;
+    margin: 2rem 0;
+  }
+
+
+  .button-feature {
+    font-size: 1.8rem;
+    width: 300px;
+    margin: 2rem 0;
+  }
+
+  .column-left {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    padding-left: 4rem;
+
+  }
+
+  .column-right {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    padding-left: 4rem;
+
+  }
+  .container {
+    width: 95%;
+
+  }
+
+  .footer-logo {
+    width: 350px;
+  }
+
+
+
+
+  h1.introduction {
+    font-size: 7rem;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 400;
+
+  }
+
+
+
+  .header-image {
+    width: 70%;
+    padding: 1rem 6rem;
+  }
+
+
+
+  .highlight {
+    background-color: #417BFD;
+    padding: 1rem 3rem;
+    width: 100%;
+    margin: auto;
+    font-size: 2rem;
+  }
+
+  .icon {
+    width: 60%;
+    height: 60%;
+    /**object-fit: contain;**/
+  }
+
+  p {
+    line-height: 1.8;
+  }
+
+  p.slogan {
+    font-size: 2.5rem;
+  }
+
+  .process-header {
+    background: url(/images/bonfire_camping.jpg) no-repeat fixed;
+    padding: 0 15px;
+    justify-content: middle;
+    text-align: left;
+    width: 100%;
+    height: 200px;
+  }
+
+  .process-title {
+    font-size: 3rem;
+    color: #fff;
+    padding-top: 10rem;
+    justify-content: flex-end;
+  }
+
+  .responsive {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 1rem 1rem;
+  }
+
+  .responsive-logo {
+    width: 90%;
+    align-self: center;
+    margin: 1rem 1rem;
+  }
+
+  section {
+    width: 100%;
+    margin: 2rem 0
+
+  }
+
+  section.box {
+    padding: 0 0;
+    font-size: 2rem;
+
+
+  }
+
+  .section-button {
+    background-color: #0F58FC;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    width: 90%;
+    margin: 2rem 0;
+  }
+
+  section.case-holder {
+    width: 100%;
+    margin: auto;
+  }
+
+  section.case-right {
+    width: 100%;
+    margin: auto;
+  }
+
+  section.case-left {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  section.case-study {
+    width: 100%;
+    padding: 0 0;
+    text-align: left;
+  }
+
+  section.competition {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+
+  }
+
+  section.feature-product {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: minmax(200px, 1fr) 300px;
+    text-align: left;
+  }
+
+  section.form-area {
+    width: 100%;
+    padding: 0 5rem;
+    justify-content: center;
+  }
+
+
+
+  section.social {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+	  grid-template-rows: repeat(1, 80px);
+    text-align: center;
+    margin-bottom:1rem 1rem;
+
+  }
+
+  section.storm {
+    width: 100%;
+    text-align: left;
+  }
+
+
+  section.summary {
+    justify-content: center;
+  }
+
+  .slogan {
+    padding: 0 4rem;
+
+  }
+
+
+
+  .storm-pic {
+    text-align: left;
+  }
+
+
+/** navigation **/
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+    padding: 2rem 3rem;
+  }
+
+
+  .main-nav {
+    display: flex;
+    margin-right: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    color: white;
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo-nav {
+    width: 300px;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+
+
+/** end Ipad**/
+
+
+/** desktop**/
+
+@media screen and (min-width: 1000px) {
+
+  .section-button {
+
+    font-size: 2rem;
+
+  }
+
+  .button {
+    width: 450px;
+  }
+
+
+  p.caption {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight:  100;
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center;
+  }
+
+
+  .case-image {
+    height: auto;
+    text-align: center;
+    width: 70%;
+
+  }
+
+  .container {
+    width: 90%;
+    margin-left: 0 auto;
+    padding: 3rem 4rem;
+
+  }
+
+
+  .feature-image {
+    height: auto;
+    text-align: center;
+    width: 85%;
+
+  }
+
+  .footer-logo {
+    width: 400px;
+
+  }
+
+
+  h1.introduction {
+    font-size: 7rem;
+
+  }
+
+
+
+  .header-image {
+    width: 40%;
+    padding: 1rem 6rem;
+
+  }
+
+  .header-main {
+    padding: 5rem 10rem;
+    width: 100%;
+  }
+
+
+  .highlight {
+    background-color: #417BFD;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    margin: auto;
+    padding: 2rem 0;
+  }
+
+  h1 {
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+
+
+  }
+
+  h1.about {
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: bold;
+    padding: 2rem 0;
+
+
+  }
+
+  h3 {
+    font-weight: 500;
+  }
+
+
+  h4 {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: regular;
+    line-height: 2;
+    padding: 1rem 0;
+    font-style: italic;
+
+
+  }
+
+  .icon {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+
+}
+
+  .main-nav {
+    font-size: 1em;
+    padding: 2rem 5rem;
+
+}
+
+  .logo-nav {
+    width: 350px;
+    height: auto;
+    margin-top: 0;
+    padding-left: 5rem;
+}
+
+  .process-header {
+    background: url(/images/bonfire_camping.jpg) no-repeat fixed;
+    margin: auto;
+    padding: 3rem 5rem;
+    justify-content: middle;
+    text-align: left;
+    width: 100%;
+    height: 180px;
+    color: white;
+
+
+  }
+
+
+
+p.slogan {
+    font-size: 2.5rem;
+    padding: 2rem 10rem;
+
+  }
+
+h2.process-title {
+    color: white;
+    font-size: 2.2rem;
+
+  }
+
+  .responsive {
+    width: 90%;
+    height: auto;
+    margin: 0rem 1rem;
+
+  }
+
+  .responsive-logo {
+    width: 80%;
+    align-self: center;
+    margin: 1rem 1rem;
+
+
+  }
+
+section {
+
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+
+section.about-copy {
+  column-count: 2;
+  column-gap: 40px;
+
+
+}
+
+
+section.branding {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(650px, 1fr) );
+}
+
+
+section.case-right {
+  padding-bottom: 15rem;
+
+  }
+
+section.case-study {
+  width: 100%;
+
+
+}
+
+section.competition {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) ) ;
+
+}
+
+section.competition-copy {
+  column-count: 2;
+  column-gap: 40px;
+  padding-bottom: 5rem;
+
+}
+
+section.feature-product {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: minmax(300px, 1fr) 400px;
+  text-align: left;
+  }
+
+
+
+
+
+section.feature-callout {
+  float: left;
+  padding: 10rem 2rem;
+  text-align: left;
+  }
+
+section.form-area {
+  width: 100%;
+  padding: 0 12%;
+  justify-content: center;
+  }
+
+
+
+section.hello {
+  column-count: 2;
+  column-gap: 60px;
+}
+
+section.image-holder {
+  width: 60%;
+  float: left;
+
+}
+
+
+section.intro {
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+section.social {
+  padding: 2rem 2rem;
+  min-height: 150px;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+section.summary {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr) );
+  text-align: center;
+
+
+
+}
+
+/**.screenshots {
+
+  width: 100%;
+  height:auto;
+  padding: 2rem 5rem;
+  margin: auto;
+}**/
+
+
+section.screens {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+	  grid-template-rows: repeat(1, 500px);
+    width: 100%;
+    height: auto;
+
+
+
+}
+
+  section.storm {
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: repeat(auto-fill, minmax(650px, 1fr) ) ;
+
+  }
+
+  section.user-research {
+    display: grid;
+      grid-gap: 20px;
+  		grid-template-columns: repeat(auto-fill, minmax(650px, 1fr) ) ;
+
+  }
+
+  p.slogan {
+    padding: 0 10rem;
+    font-size: 3rem;
+
+  }
+
+  .storm-pic {
+    width: 100%;
+    height: auto;
+    text-align: left;
+  }
+}
