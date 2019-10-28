@@ -245,6 +245,10 @@ textarea {
   font-weight: regular;
   list-style-type: none;
   display: none;
+  transition: font-size .25s linear;
+  -o-transition: font-size .25s linear;
+  -moz-transition: font-size .25s linear;
+  -webkit-transition: font-size .25s linear;
 }
 
 .main-nav li {
@@ -297,6 +301,10 @@ textarea {
   height: auto;
   text-align: center;
   margin: 1rem 1rem;
+  transition: font-size .25s linear;
+  -o-transition: font-size .25s linear;
+  -moz-transition: font-size .25s linear;
+  -webkit-transition: font-size .25s linear;
 
 }
 
@@ -304,6 +312,10 @@ textarea {
   width: 80%;
   align-self: center;
   margin: 1rem 1rem;
+  transition: font-size .25s linear;
+  -o-transition: font-size .25s linear;
+  -moz-transition: font-size .25s linear;
+  -webkit-transition: font-size .25s linear;
 
 }
 
@@ -399,6 +411,10 @@ section.feature-callout {
 section.feature-product {
   width: 100%;
   text-align: center;
+  transition: font-size .25s linear;
+  -o-transition: font-size .25s linear;
+  -moz-transition: font-size .25s linear;
+  -webkit-transition: font-size .25s linear;
 
 }
 
@@ -453,7 +469,7 @@ section.screens {
 section.social {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
   grid-template-rows: repeat(1, 50px);
  margin-bottom: 2rem;
  text-align: center;
@@ -523,12 +539,21 @@ p.slogan {
   padding: 1rem 2rem;
   text-align: center;
   float: inherit;
+  text-shadow: 2px 2px #000000;
+  transition: font-size .25s linear;
+  -o-transition: font-size .25s linear;
+  -moz-transition: font-size .25s linear;
+  -webkit-transition: font-size .25s linear;
 
 }
 
 .introduction {
   font-size: 4rem;
   padding: 2rem 4rem;
+  transition: font-size .25s linear;
+  -o-transition: font-size .25s linear;
+  -moz-transition: font-size .25s linear;
+  -webkit-transition: font-size .25s linear;
 
 }
 
@@ -706,6 +731,11 @@ a:active {
 
   p.slogan {
     font-size: 2.5rem;
+    text-shadow: 2px 2px #000000;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
   }
 
   .process-header {
@@ -729,12 +759,20 @@ a:active {
     height: auto;
     text-align: center;
     margin: 1rem 1rem;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
   }
 
   .responsive-logo {
     width: 90%;
     align-self: center;
     margin: 1rem 1rem;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
   }
 
   section {
@@ -798,6 +836,10 @@ a:active {
     grid-gap: 5px;
     grid-template-columns: minmax(200px, 1fr) 300px;
     text-align: left;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
   }
 
   section.feature-callout {
@@ -818,7 +860,7 @@ a:active {
   section.social {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
 	  grid-template-rows: repeat(1, 80px);
     text-align: center;
     margin-bottom:1rem 1rem;
@@ -864,6 +906,10 @@ a:active {
     margin-right: 0;
     flex-direction: row;
     justify-content: flex-end;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
   }
 
   .main-nav li {
@@ -1031,6 +1077,10 @@ a:active {
   .main-nav {
     font-size: 1em;
     padding: 2rem 5rem;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
 
 }
 
@@ -1067,6 +1117,10 @@ a:active {
   p.slogan {
     font-size: 2.5rem;
     padding: 0 6rem;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
 
 
   }
@@ -1078,10 +1132,14 @@ a:active {
   }
 
   .responsive {
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: 0rem 1rem;
     padding: 1rem 1rem;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
 
   }
 
@@ -1090,6 +1148,10 @@ a:active {
     height: auto;
     margin: 0rem 1rem;
     padding: 5rem 1rem;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
 
   }
 
@@ -1097,6 +1159,10 @@ a:active {
     width: 80%;
     align-self: center;
     margin: 1rem 1rem;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
 
 
   }
@@ -1168,6 +1234,10 @@ section.feature-product {
   grid-template-columns: minmax(300px, 1fr) 300px;
   text-align: left;
   margin-bottom: 3rem;
+  transition: font-size .25s linear;
+  -o-transition: font-size .25s linear;
+  -moz-transition: font-size .25s linear;
+  -webkit-transition: font-size .25s linear;
   }
 
 
@@ -1209,27 +1279,22 @@ section.intro {
 }
 
 section.social {
-  padding: 2rem 2rem;
-  min-height: 150px;
-  margin: 2rem 0;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  grid-template-rows: repeat(1, 90px);
   text-align: center;
+  margin-bottom:1rem 1rem;
+
 }
 
 section.summary {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr) );
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr) );
   text-align: center;
 
 }
-
-/**.screenshots {
-
-  width: 100%;
-  height:auto;
-  padding: 2rem 5rem;
-  margin: auto;
-}**/
 
 
 section.screens {
@@ -1269,12 +1334,21 @@ section.userflows {
   p.slogan {
     padding: 0 10rem;
     font-size: 3rem;
+    text-shadow: 2px 2px #000000;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
 
   }
 
   .storm-pic {
     height: auto;
     justify-content: center;
+    transition: font-size .25s linear;
+    -o-transition: font-size .25s linear;
+    -moz-transition: font-size .25s linear;
+    -webkit-transition: font-size .25s linear;
 
   }
 }
