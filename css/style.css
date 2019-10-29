@@ -99,6 +99,8 @@ button:hover {
 }
 
 
+
+
 .feature-image {
   height: 100%;
   text-align: center;
@@ -281,6 +283,15 @@ textarea {
 
 /*** end navigation***/
 
+
+.preference {
+  background-color: #F0F0F0;
+  height: 400px;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+
 .process-header {
   background: url(/images/bonfire_camping.jpg) no-repeat  fixed;
   padding: 10rem 15px;
@@ -447,12 +458,6 @@ section.intro {
 
 }
 
-section.preference {
-  background-color: #b9c9d1;
-  height: 400px;
-  width: 100%;
-  padding: 0 10rem;
-}
 
 
 
@@ -476,6 +481,11 @@ section.social {
 
 }
 
+
+section.stories-table {
+  width: 100%;
+}
+
 section.storm {
   width: 100%;
   padding: 0 0;
@@ -495,10 +505,56 @@ section.summary {
 
 }
 
+
+
 section.wireframes {
   background-color: #e5e5e5;
   width: 100%;
   text-align: center;
+}
+
+
+.stories-copy {
+  margin: 2rem 0;
+}
+
+.stories-table {
+  margin: 2rem 0;
+}
+
+/** Table **/
+.Table {
+  display: table;
+  width: 100%
+}
+
+.Title {
+  display: table-caption;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.Heading {
+  background-color: #024e7d;
+  color: white;
+  display: table-row;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Row {
+  background-color: white;
+  display: table-row;
+  font-size: 1rem;
+}
+
+.Cell {
+  display: table-cell;
+  border: solid;
+  border-width: thin;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 
@@ -514,6 +570,13 @@ textarea {
   margin-bottom: 20px;
 }
 
+
+.user-stories {
+  background-color: #F0F0F0;
+  height: auto;
+  width: 100%;
+
+}
 
 
 /** Typography **/
@@ -997,6 +1060,8 @@ a:active {
 
   }
 
+
+
   .footer-logo {
     width: 400px;
 
@@ -1221,12 +1286,7 @@ section.competition {
 
 }
 
-section.competition-copy {
-  column-count: 2;
-  column-gap: 40px;
-  padding-bottom: 5rem;
 
-}
 
 section.feature-product {
   display: grid;
@@ -1331,9 +1391,17 @@ section.userflows {
 
   }
 
+
+  section.user-testing {
+    display: grid;
+    grid-gap: 20px;
+  	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr) ) ;
+    text-align: center;
+  }
+
   p.slogan {
     padding: 0 10rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-shadow: 2px 2px #000000;
     transition: font-size .25s linear;
     -o-transition: font-size .25s linear;
@@ -1351,10 +1419,19 @@ section.userflows {
     -webkit-transition: font-size .25s linear;
 
   }
+
+
+
 }
 
 
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1400px){
+
+  .container {
+    width: 70%;
+  }
+
+
 
   section.feature-product {
     display: grid;
@@ -1380,9 +1457,48 @@ section.userflows {
     }
 
 
+  .user-stories {
+      background-color: #F0F0F0;
+      width: 100%;
+
+
+
+
+  }
+  .user-container {
+    width: 100%;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr) ) ;
+    justify-content: center;
+
+
+  }
+
+  section.userflows {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr) ) ;
+  }
+
+
 }
 
 @media screen and (min-width: 1700px){
+
+
+  .container {
+    width: 80%;
+  }
+
+
+  section.competition-copy {
+    column-count: 2;
+    column-gap: 40px;
+    padding-bottom: 5rem;
+
+  }
+
 
   section.feature-product {
     display: grid;
@@ -1406,6 +1522,7 @@ section.userflows {
     text-align: left;
     justify-content: middle;
     }
+
 
 
 }
