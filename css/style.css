@@ -1665,6 +1665,11 @@ section.preference-copy {
 
 @media screen and (min-width: 1900px){
 
+
+  .container {
+    width: 70%;
+  }
+
   section.feature-product {
     display: grid;
     grid-gap: 5px;
