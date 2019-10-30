@@ -136,6 +136,14 @@ form {
   margin: 0 .5rem;
 }
 
+.charts {
+  width:100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 3rem;
+
+}
+
 html {
   font-size: 10px;
 }
@@ -410,6 +418,12 @@ section.connect {
 
 }
 
+
+section.data {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
 
 section.feature-callout {
   width: 100%;
@@ -1281,8 +1295,16 @@ section.case-study {
 
 section.competition {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 30px;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) ) ;
+  text-align: center;
+
+}
+
+section.data {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr) ) ;
 
 }
 
@@ -1385,9 +1407,12 @@ section.userflows {
 
 
   section.user-research {
-    display: grid;
+    column-count: 2;
+    column-gap: 60px;
+    padding-top: 3rem;
+    /**display: grid;
       grid-gap: 20px;
-  		grid-template-columns: repeat(auto-fill, minmax(650px, 1fr) ) ;
+  		grid-template-columns: repeat(auto-fill, minmax(650px, 1fr) ) ;**/
 
   }
 

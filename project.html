@@ -87,17 +87,14 @@
 
     <div class="container">
 
-
+      <h2>User Research</h2>
       <section class="user-research">
-        <div>
 
-
-        <h2>User Research</h2>
           <p>I conducted a user survey and was pretty fortunate to get a large group of gamers to participate, overall we received surveys from a wide range of ages, an equal number of male and female users and all of those surveyed already used some kind of cloud service.
 
           There definitely seems to be a market for a gaming-focused cloud storage service. Based on the survey results there is an opportunity to fill a void for gamers in the current market. In order for the need to be met the service must be able to provide:
 
-          <br><br>
+          <br><br><br><br>
           1) Usability across platforms<br>
           2) PC/Console use either through apps or plug-ins<br>
           3) Enhanced storage<br>
@@ -105,14 +102,19 @@
           5) The ability to save non-traditional files like mods, DLC’s, models, and game vids<br><br>
 
           The survey also showed that we do not have to make the ability to collaborate and edit files with someone else as a priority for the product though, it would still be a nice feature to have.</P>
-
-        </div>
-        <div>
-          <img class="responsive" src="images/survey_gamers.png" alt="survey screenshot 1">
-          <img class="responsive" src="images/survey_features.png" alt="survey screenshot 2">
-        </div>
-
       </section>
+
+        <section class="data">
+          <div class="charts">
+            <canvas id="doughnut"></canvas>
+          </div>
+          <div class="charts">
+            <canvas id="myChart" ></canvas>
+          </div>
+
+        </section>
+
+
 
       <section >
         <h2>Competitive Analysis</h2>
@@ -367,7 +369,8 @@
   </script>
 
   <script src="scripts/navbar.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="scripts/chart.js"></script>
 
   </body>
 </html>
