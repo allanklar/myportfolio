@@ -1014,7 +1014,7 @@ a:active {
   section.competition {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) ) ;
 
   }
 
@@ -1668,6 +1668,21 @@ section.wireframes {
     }
 
 
+  section.flows {
+    padding-top: 0;
+    padding-bottom: 2rem;
+  }
+
+    section.flow-holder {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(600px, 1fr) ) ;
+      padding: 0 0;
+      margin: 0;
+
+    }
+
+
     section.userflows {
       display: grid;
       grid-gap: 10px;
@@ -1741,7 +1756,7 @@ section.wireframes {
   section.competition-copy {
     column-count: 2;
     column-gap: 40px;
-    padding: 0 0;
+    padding: 2rem 0;
     margin: 0;
 
 
