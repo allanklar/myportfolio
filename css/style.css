@@ -1734,7 +1734,14 @@ section.wireframes {
 
   }
 
+  section {
+    margin: 4rem 0;
+  }
 
+  section.box {
+    margin: o o;
+
+  }
 
   section.branding {
     column-count: 2;
@@ -1839,6 +1846,8 @@ section.wireframes {
 
 
   }
+
+
 
   section.feature-product {
     display: grid;
