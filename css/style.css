@@ -93,7 +93,7 @@ button:hover {
   width: 50%;
   height: 100%;
   float: left;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.4rem;
   line-height: 1.2;
   padding-left: 2rem;
@@ -103,7 +103,7 @@ button:hover {
 .column-right {
   width: 50%;
   float: left;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.4rem;
   line-height: 1.2;
   padding-left: 2rem;
@@ -156,7 +156,7 @@ footer {
 }
 
 form {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
   margin: auto;
   padding-top: 0rem;
@@ -199,7 +199,7 @@ html {
 
 .header-main {
   background: url(/images/header.jpg) center / cover;
-  height: 60vh;
+  height: 50vh;
   text-align: center;
   color: #ffffff;
   padding: 5rem 1rem;
@@ -404,7 +404,7 @@ section.box {
   text-decoration: none;
   display: inline-block;
   font-size: 1.2rem;
-  width: 100%;
+  width: 250px;
   margin: 2rem 0;
 
 }
@@ -480,6 +480,8 @@ section.feature-callout {
 }
 
 section.feature-product {
+  padding: 0 0;
+  margin: 2rem 0;
   width: 100%;
   text-align: center;
   transition: font-size .25s linear;
@@ -521,7 +523,7 @@ section.intro {
 
 
 section.persona {
-  text-align: left;;
+  text-align: left;
 }
 
 
@@ -579,10 +581,10 @@ section.summary {
 
 section.typography {
   min-width: 100px;
-  /**display: grid;
-  grid-gap: 5px;
+  display: grid;
+  grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  margin:auto;**/
+  margin:auto;
 
 
 }
@@ -683,7 +685,7 @@ textarea {
 /** Typography **/
 
 .caption {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: italic;
   font-weight:  100;
   font-size: 1.2rem;
@@ -692,7 +694,7 @@ textarea {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight:  100;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -711,7 +713,7 @@ p.persona {
 }
 
 p.slogan {
-  font-size: 1.4rem;
+  font-size: 1.9rem;
   padding: 1rem 2rem;
   text-align: center;
   float: inherit;
@@ -736,9 +738,9 @@ p.slogan {
 
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: black;
   font-weight: bold;
 
 
@@ -751,13 +753,21 @@ h1.about {
   font-weight: bold;
   padding: 1rem 0;
 
+}
+
+h1.introduction {
+  font-size: 4em;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: bold;
 
 
 }
 
 
+
 h2 {
-  font-size: 3em;
+  font-size: 2.2em;
   font-family: 'Raleway', sans-serif;
   color: black;
   font-weight: 600;
@@ -789,7 +799,7 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-weight: regular;
   line-height: 2;
@@ -881,6 +891,10 @@ a:active {
     font-size: 7rem;
   }
 
+  h2 {
+    font-size: 2.5rem;
+  }
+
   h3 {
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
@@ -927,7 +941,7 @@ a:active {
 
   .process-header {
     background: url(/images/bonfire_camping.jpg) no-repeat fixed;
-    padding: 0 15px;
+    padding: 0 3rem;
     justify-content: middle;
     text-align: left;
     width: 100%;
@@ -981,11 +995,10 @@ a:active {
     border-radius: 4px;
     color: white;
     padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1.2rem;
-    width: 100%;
+    width: 300px;
     margin: 2rem 0;
   }
 
@@ -1015,12 +1028,14 @@ a:active {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) ) ;
+    text-align: center;
 
   }
 
   section.feature-product {
     display: grid;
     grid-gap: 5px;
+    margin: 3rem 0;
     grid-template-columns: minmax(200px, 1fr) 300px;
     text-align: left;
     transition: font-size .25s linear;
@@ -1207,10 +1222,19 @@ a:active {
 
   }
 
+  h1 {
+    font-size: 4rem;
+    color: black;
+  }
+
 
   h1.introduction {
     font-size: 7rem;
 
+  }
+
+  h2 {
+    font-size: 3rem;
   }
 
 
@@ -1237,9 +1261,9 @@ a:active {
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 3.4em;
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: black;
     font-weight: bold;
 
 
@@ -1262,7 +1286,7 @@ a:active {
 
   h4 {
     font-size: 4rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
     font-weight: regular;
     line-height: 2;
@@ -1299,7 +1323,7 @@ a:active {
   .process-header {
     background: url(/images/bonfire_camping.jpg) no-repeat fixed;
     margin: auto;
-    padding: 3rem 5rem;
+    padding: 3rem 10rem;
     justify-content: middle;
     text-align: left;
     width: 100%;
@@ -1310,7 +1334,7 @@ a:active {
   }
 
   p.caption {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-weight:  100;
     font-size: 1.5rem;
@@ -1332,12 +1356,12 @@ a:active {
 
   h2.process-title {
     color: white;
-    font-size: 2.2rem;
+    font-size: 3rem;
 
   }
 
   .responsive {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 0rem 1rem;
     padding: 1rem 1rem;
@@ -1345,6 +1369,7 @@ a:active {
     -o-transition: font-size .25s linear;
     -moz-transition: font-size .25s linear;
     -webkit-transition: font-size .25s linear;
+    text-align: center;
 
   }
 
@@ -1408,8 +1433,8 @@ section.branding {
 
 section.brand-elements {
   display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
   margin:auto;
   padding: 1rem 1rem;
 
@@ -1446,8 +1471,8 @@ section.data {
 
 section.feature-product {
   display: grid;
-  grid-gap: 5px;
-  grid-template-columns: minmax(300px, 1fr) 300px;
+  grid-gap: 3px;
+  grid-template-columns: minmax(400px, 1fr) 300px;
   text-align: left;
   margin-bottom: 3rem;
   transition: font-size .25s linear;
@@ -1462,7 +1487,7 @@ section.feature-product {
 
 section.feature-callout {
   float: left;
-  padding-top: 5rem;
+  padding-top: 10rem;
   text-align: left;
   justify-content: middle;
   }
@@ -1527,11 +1552,11 @@ section.social {
 
 section.screens {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-	grid-template-rows: repeat(1, 400px);
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   width: 100%;
   height: auto;
+  text-align: center;
 
 
 
@@ -1643,10 +1668,20 @@ section.wireframes {
 
   }
 
+  h1 {
+    font-size: 4rem;
+  }
+
+
+  .process-header {
+    padding: 3rem 28rem;
+
+  }
+
   section.feature-product {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: minmax(300px, 1fr) 300px;
+    grid-template-columns: minmax(290px, 1fr) 360px;
     text-align: left;
     margin-bottom: 3rem;
     transition: font-size .25s linear;
@@ -1727,9 +1762,28 @@ section.wireframes {
 
   }
 
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h2.process-title {
+    font-size: 4rem;
+  }
+
+
 
   p.slogan {
     padding: 0 20rem;
+
+
+  }
+
+  .process-header {
+    padding: 3rem 17rem;
 
 
   }
@@ -1773,7 +1827,7 @@ section.wireframes {
   section.feature-product {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: minmax(300px, 1fr) 400px;
+    grid-template-columns: minmax(300px, 1fr) 450px;
     text-align: left;
     margin-bottom: 3rem;
     transition: font-size .25s linear;
