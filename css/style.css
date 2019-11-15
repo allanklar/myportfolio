@@ -1361,7 +1361,7 @@ a:active {
   }
 
   .responsive {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 0rem 1rem;
     padding: 1rem 1rem;
@@ -1552,9 +1552,10 @@ section.social {
 
 section.screens {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-  width: 100%;
+  grid-template-rows: repeat(1, 600px);
+  width: 95%;
   height: auto;
   text-align: center;
 
