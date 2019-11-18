@@ -263,6 +263,8 @@ input[type=text] {
 
 }
 
+
+
 textarea {
   font-size: 1.8rem;
 }
@@ -492,7 +494,7 @@ section.feature-product {
 }
 
 section.form-area {
-  width: 90%;
+  width: 60%;
   padding: 0 1rem;
   justify-content: center;
 }
@@ -880,6 +882,11 @@ a:active {
 
   }
 
+  .copyright {
+    font-size: 1.2rem;
+
+  }
+
   .footer-logo {
     width: 350px;
   }
@@ -908,6 +915,12 @@ a:active {
   .header-image {
     width: 70%;
     padding: 1rem 6rem;
+  }
+
+
+  .header-main {
+    padding-top: 12rem;
+
   }
 
 
@@ -1053,7 +1066,7 @@ a:active {
 
   section.form-area {
     width: 100%;
-    padding: 0 5rem;
+    padding: 0 3rem;
     justify-content: center;
 
   }
@@ -1206,7 +1219,10 @@ a:active {
 
   }
 
+  .copyright {
+    font-size: 1.4rem;
 
+  }
 
   .feature-image {
     height: auto;
@@ -1246,7 +1262,7 @@ a:active {
   }
 
   .header-main {
-    padding: 5rem 8rem;
+    padding: 12rem 5rem 0 5rem;
 
   }
 
@@ -1495,9 +1511,10 @@ section.feature-callout {
 
 
 section.form-area {
-  width: 100%;
-  padding: 0 12%;
-  justify-content: center;
+  width: 90%;
+  padding-left: 10rem;
+
+
   }
 
 
@@ -1620,7 +1637,7 @@ section.wireframes {
   padding: 2rem 0;
 }
 
-  section.wireframe-images {
+section.wireframe-images {
 
     display: grid;
     grid-gap: 20px;
@@ -1709,7 +1726,7 @@ section.wireframes {
     padding-bottom: 2rem;
   }
 
-    section.flow-holder {
+  section.flow-holder {
       display: grid;
       grid-gap: 30px;
       grid-template-columns: repeat(auto-fit, minmax(600px, 1fr) ) ;
@@ -1718,8 +1735,15 @@ section.wireframes {
 
     }
 
+    section.form-area {
+      width: 80%;
+      padding-left: 28rem;
 
-    section.userflows {
+
+      }
+
+
+  section.userflows {
       display: grid;
       grid-gap: 10px;
       grid-template-columns: repeat(auto-fill, minmax(310px, 1fr) ) ;
@@ -1755,11 +1779,11 @@ section.wireframes {
 
 
   .container {
-    width: 80%;
+    width: 60%;
   }
 
   .container-about {
-    width: 50%;
+    width: 60%;
 
   }
 
@@ -1808,8 +1832,8 @@ section.wireframes {
 
   section.competition {
     display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) ) ;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
     text-align: center;
     margin: 0;
 
@@ -1854,6 +1878,13 @@ section.wireframes {
 
   }
 
+  section.form-area {
+    width: 80%;
+    padding-left: 32rem;
+
+
+    }
+
   section.preference-copy {
       width: 80%;
       padding-left: 30rem;
@@ -1895,6 +1926,20 @@ section.wireframes {
 
 @media screen and (min-width: 1900px){
 
+  .container {
+    width: 80%;
+  }
+
+  .container-about {
+    width: 50%;
+
+  }
+
+
+  .header-main {
+    padding: 10rem 5rem 0 5rem;
+
+  }
 
   p.slogan {
     padding: 0 35rem;
@@ -1927,6 +1972,11 @@ section.wireframes {
     justify-content: middle;
   }
 
+  section.form-area {
+    width: 80%;
+    padding-left: 38rem;
 
+
+    }
 
 }
