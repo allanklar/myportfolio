@@ -3,7 +3,11 @@
 }
 
 
-
+.back-top {
+  width: 50px;
+  height: auto;
+  margin: 2rem 0;
+}
 
 body {
   background-color: white;
@@ -263,7 +267,10 @@ input[type=text] {
 
 }
 
-
+.sitemap {
+  width:90%;
+  height: auto;
+  }
 
 textarea {
   font-size: 1.8rem;
@@ -526,6 +533,7 @@ section.intro {
 
 section.persona {
   text-align: left;
+  margin: 0;
 }
 
 
@@ -623,6 +631,15 @@ section.stories-copy {
   text-align: center;
   font-weight: bold;
   font-size: larger;
+}
+
+
+.top {
+  width: 100%;
+  min-height: 40px;
+  text-align: center;
+  color: black;
+  font-size: 1.8rem;
 }
 
 .Heading {
@@ -1040,9 +1057,10 @@ a:active {
   section.competition {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) ) ;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr) ) ;
     text-align: center;
     padding: 0 0;
+    height: auto;
 
   }
 
@@ -1473,6 +1491,7 @@ section.case-study {
 
 section.competition-copy {
   padding-top: 0;
+  margin-top: 0;
 
 }
 
@@ -1510,7 +1529,10 @@ section.feature-callout {
   justify-content: middle;
   }
 
-
+section.flow-holder{
+  padding-top: 0;
+  margin-top: 0;
+}
 
 section.form-area {
   width: 90%;
@@ -1556,6 +1578,10 @@ section.preference-images {
 
 }
 
+section.problem {
+  padding-top: 0;
+}
+
 section.social {
   display: grid;
   grid-gap: 30px;
@@ -1564,6 +1590,10 @@ section.social {
   text-align: center;
   margin-bottom:1rem 1rem;
 
+}
+
+section.solution{
+  padding-top: 0;
 }
 
 
@@ -1820,7 +1850,7 @@ section.wireframe-images {
   }
 
   section.box {
-    margin: o o;
+    margin: 0 0;
 
   }
 
@@ -1887,8 +1917,17 @@ section.wireframe-images {
     }
 
   section.preference-copy {
-      width: 80%;
-      padding-left: 30rem;
+      width: 90%;
+      padding-left: 10rem;
+  }
+
+  section.problem {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  section.solution {
+    margin-top: 0;
   }
 
   section.summary {
@@ -1917,6 +1956,12 @@ section.wireframe-images {
     margin: 0;
 
   }
+
+  .sitemap {
+    width:761px;
+    height: 447px;
+    }
+
 
 
 
@@ -1948,7 +1993,18 @@ section.wireframe-images {
 
   }
 
+section {
+  padding: 3rem 0;
+}
 
+  section.competition {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) ) ;
+    text-align: center;
+    margin: 0;
+
+  }
 
   section.feature-product {
     display: grid;
