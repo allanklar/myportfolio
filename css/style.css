@@ -1846,7 +1846,7 @@ section.wireframe-images {
   }
 
   section {
-    margin: 4rem 0;
+    margin: 8rem 0;
   }
 
   section.box {
@@ -1873,9 +1873,9 @@ section.wireframe-images {
 
   section.competition-copy {
     column-count: 2;
-    column-gap: 40px;
-    padding: 2rem 0;
-    margin: 0;
+    column-gap: 20px;
+    padding: 0rem 0;
+    margin-top: 0;
 
 
   }
@@ -1915,6 +1915,10 @@ section.wireframe-images {
 
 
     }
+
+  section.intro {
+    margin-bottom: 2rem;
+  }
 
   section.preference-copy {
       width: 90%;
