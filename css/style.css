@@ -1042,6 +1042,7 @@ a:active {
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) ) ;
     text-align: center;
+    padding: 0 0;
 
   }
 
@@ -1422,7 +1423,8 @@ a:active {
 section {
 
     width: 100%;
-    padding: 4rem 0;
+    padding: 4rem  0;
+
   }
 
 
@@ -1470,8 +1472,8 @@ section.case-study {
 
 
 section.competition-copy {
-  padding: 0 0 ;
-  margin: 0;
+  padding-top: 0;
+
 }
 
 
@@ -1871,10 +1873,9 @@ section.wireframe-images {
 
   section.flow-holder {
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr) ) ;
-    padding: 0 0;
-    margin: 0;
+
 
   }
 
